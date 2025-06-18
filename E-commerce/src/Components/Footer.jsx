@@ -18,6 +18,7 @@ export default function Footer() {
                     </div>
 
                     {/* About Us */}
+
                     <div className="space-y-4">
                         <h3 className="text-2xl font-bold">About Us</h3>
                         <ul className="space-y-2">
@@ -30,6 +31,7 @@ export default function Footer() {
                     </div>
 
                     {/* Customer Care */}
+
                     <div className="space-y-4">
                         <h3 className="text-2xl font-bold">Customer Care</h3>
                         <ul className="space-y-2">
@@ -42,6 +44,7 @@ export default function Footer() {
                     </div>
 
                     {/* Contact Us */}
+                    
                     <div className="space-y-2 ">
                         <h3 className="text-2xl font-bold ">Contact Us</h3>
                         <div className="text-gray-300 leading-relaxed">
