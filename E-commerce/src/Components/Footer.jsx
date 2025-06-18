@@ -44,11 +44,11 @@ export default function Footer() {
                     </div>
 
                     {/* Contact Us */}
-                    
+
                     <div className="space-y-2 ">
                         <h3 className="text-2xl font-bold ">Contact Us</h3>
                         <div className="text-gray-300 leading-relaxed">
-                            <p>Kalyandurgam, Ananthapur(dist), AP, 515765</p>
+                            <p>Kalyandurgam, Ananthapur(dist), Andhra Pradesh, 515765</p>
                             <p className="mt-2">Email: thorjaswanth@gmail.com</p>
                             <p className="mt-2">Phone: +91 6305780039</p>
                         </div>
