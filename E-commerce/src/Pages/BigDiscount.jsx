@@ -23,9 +23,11 @@ export default function BigDiscount() {
       >
 
         {/* Discount badge */}
+
         <span className="absolute top-4 left-4 bg-blue-900 text-white text-xs font-semibold px-3 py-1 rounded-full z-10">
           {product.discount}% Off
         </span>
+        
         {/* Image Box */}
         <div className="w-full h-[250px] flex items-center justify-center mb-4 mt-6">
           <Link to={`/${product.id}`}>
@@ -38,11 +40,13 @@ export default function BigDiscount() {
         </div>
 
         {/* Product Name */}
+
         <h2 className="text-lg md:text-xl font-bold text-gray-800 mb-2">
           {product.productName}
         </h2>
 
         {/* Rating */}
+
         <div className="text-yellow-500 text-base md:text-lg mb-3">⭐⭐⭐⭐⭐</div>
 
         {/* Price and Button at Bottom */}
