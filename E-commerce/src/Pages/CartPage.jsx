@@ -91,6 +91,7 @@ export default function CartPage() {
       </div>
 
       {/* Cart Summary */}
+      
       {cartItems.length > 0 && (
         <div className="w-full max-w-sm bg-white shadow-md rounded-xl p-6 h-fit mx-auto lg:mx-0">
           <h3 className="text-xl xl:text-2xl font-semibold text-gray-800 mb-4">Cart Summary</h3>
