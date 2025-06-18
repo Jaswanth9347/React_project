@@ -23,7 +23,6 @@ export default function Header() {
                 <h3><CgProfile /></h3>
                 <Link to='/cart'><h3><FaShoppingCart /><span className="absolute top-0 right-7 bg-blue-900 text-white text-xs w-7 h-7 flex items-center justify-center rounded-full">{uniqueCount}</span></h3></Link>
             </div>
-
         </div>
 
     )
