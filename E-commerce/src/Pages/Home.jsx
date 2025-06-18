@@ -8,11 +8,11 @@ import BestSales from './BestSales'
 export default function Home() {
   return (
     <div>
-            <Carousel/>
-            <ServiceData/>
-            <BigDiscount/>
-            <NewArrivals/>
-            <BestSales/>
+          <Carousel/>
+          <ServiceData/>
+          <BigDiscount/>
+          <NewArrivals/>
+          <BestSales/>
             
     </div>
   )
