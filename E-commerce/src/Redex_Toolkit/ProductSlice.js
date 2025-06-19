@@ -44,7 +44,8 @@ const cartMiddleware = store => next => action => {
   return result;
 };
 
-// Exports
+// Exports to perform actions
+
 export const { addToCart, removeFromCart, increaseQty, decreaseQty } = productSlice.actions;
 export const cartReducer = productSlice.reducer;
 export const cartMiddlewareFn = cartMiddleware;
