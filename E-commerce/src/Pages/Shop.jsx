@@ -26,6 +26,7 @@ export default function Shop() {
 
       {/* Dropdown for Category Selection */}
       <div className="flex flex-wrap gap-4 justify-center px-4 mb-8">
+
         {/* Filter By Category */}
         <div className="flex-1 min-w-[250px]">
           <select
@@ -57,7 +58,6 @@ export default function Shop() {
       </div>
 
       {/* Product Grid */}
-      
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8  lg:px-23 lg:pb-30  md:px-6 md:pb-10">
         {products.filter((item) => (
           (search === '' || item.productName.toLowerCase().includes(search.toLowerCase())) &&
