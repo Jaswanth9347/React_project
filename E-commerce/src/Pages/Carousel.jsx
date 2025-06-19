@@ -27,7 +27,6 @@ export default function Carousel() {
                                 <button className=" text-black font-bold px-6 py-3 hover:bg-gray-200">
                                     Visit Collections
                                 </button>
-
                             </div>
                             <div>
                                 <img src={item.cover} alt={item.title} className="w-full h-auto object-contain" />
